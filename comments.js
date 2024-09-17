@@ -6,5 +6,4 @@ var http = require('http');
 var fs = require('fs');
 
 // Create server
-http.createServer(function (req, res) {
-    //
+http.createServer(function (req, res) { }).listen(3000);
